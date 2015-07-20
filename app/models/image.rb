@@ -5,6 +5,8 @@ class Image < ActiveRecord::Base
 
 	before_save :update_image_attributes
 
+	
+
 	private
 		def update_image_attributes
 			if image.present? && image_changed?

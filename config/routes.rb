@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
 
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get 'upload' => 'images#new', :as => 'upload'
 
   get 'images/create'

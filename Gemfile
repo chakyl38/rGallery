@@ -19,8 +19,9 @@ group :development, :test do
   gem 'spring'
 end
  ### ADDED GEMS ###
- gem 'rmagick'
+ gem 'rmagick', :require => 'RMagick'
  gem 'carrierwave'
  gem 'bootstrap-sass', '~> 3.2.0'
  gem 'autoprefixer-rails'
+ gem 'rails_admin'
 
